@@ -1,5 +1,66 @@
 -- Insert Statements
 
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`role`
+(`role_name`)
+VALUES
+('admin');
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`role`
+(`role_name`)
+VALUES
+('owner');
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`role`
+(`role_name`)
+VALUES
+('writer');
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`role`
+(`role_name`)
+VALUES
+('editor');
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`role`
+(`role_name`)
+VALUES
+('reviewer');
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`privilege`
+(`privilege_name`)
+VALUES
+('read');
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`privilege`
+(`privilege_name`)
+VALUES
+('create');
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`privilege`
+(`privilege_name`)
+VALUES
+('update');
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`privilege`
+(`privilege_name`)
+VALUES
+('delete');
+
+
+INSERT INTO `cs5200_fall2018_A2_amritanair`.`person`
+(`p_id`,
+`first_name`,
+`last_name`,
+`user_name`,
+`password`,
+`email`)
+VALUES
+(12,
+'Alice',
+'Wonder',
+'alice',
+'alice',
+'alice@wonder.com');
+
 INSERT INTO `cs5200_fall2018_A2_amritanair`.`person`
 (`p_id`,
 `first_name`,
