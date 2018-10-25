@@ -1,0 +1,12 @@
+delete from address where person_id>1;
+delete from page_privilege where developer_id>1;
+delete from page_role where developer_id>1;
+delete from website_privilege where developer_id>1;
+delete from website_role where developer_id>1;
+delete from widget where widget_id>1;
+delete from phone where person_id>1;
+delete from page where website_id>1;
+delete from website  where developer_id>1;
+delete from developer where p_id>1;
+delete from user where p_id>1;
+delete from person where p_id>1;
