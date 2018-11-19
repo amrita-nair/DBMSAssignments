@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.northeastern.cs5200.TestAll
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 79.707 s <<< FAILURE! - in edu.northeastern.cs5200.TestAll
+testValidateSectionEnrollments(edu.northeastern.cs5200.TestAll)  Time elapsed: 8.364 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at edu.northeastern.cs5200.TestAll.testValidateSectionEnrollments(TestAll.java:258)
+
+testValidateStudentEnrollments(edu.northeastern.cs5200.TestAll)  Time elapsed: 7.8 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at edu.northeastern.cs5200.TestAll.testValidateStudentEnrollments(TestAll.java:271)
+
